@@ -21,12 +21,12 @@ public class LoginPage extends TestBase {
 	@FindBy(xpath = "//img[@title='naveenopencart']")
 	WebElement pageLogo;
 
-   //Initialise the page object
-	
+	// Initialise the page object
+
 	public LoginPage() {
 		PageFactory.initElements(driver, this);// use also LoginPage.class
 	}
-   //Actions Methods
+	// Actions Methods
 
 	public String ValidateloginPageTitle() {
 		return driver.getTitle();

@@ -1,5 +1,9 @@
 package com.qa.testcases;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -18,6 +22,7 @@ public class LoginPageTest extends TestBase {
 
 	}
 
+	
 	@BeforeMethod
 	public void setUp() {
 		initialization();
@@ -28,7 +33,7 @@ public class LoginPageTest extends TestBase {
 	public void loginPageTitleTest() {
 		String title = loginpage.ValidateloginPageTitle();
 		System.out.println("------------" + title + "---------------");
-		Assert.assertEquals(title, "Account Login");
+		AssertJUnit.assertEquals(title, "Account Login");
 
 	}
 
@@ -42,11 +47,10 @@ public class LoginPageTest extends TestBase {
 		Thread.sleep(3000);
 		homepage = loginpage.Login(prop.getProperty("username"), prop.getProperty("password"));
 		Thread.sleep(3000);
-		String title1 = loginpage.ValidateloginPageTitle();
-		System.out.println("------------" + title1 + "---------------");
-		Assert.assertEquals(title1, "My Account");
+
 	}
 
+	
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();

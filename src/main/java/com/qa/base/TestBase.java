@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 
 import com.qa.util.Testutil;
 
@@ -37,15 +38,24 @@ public class TestBase {
 		String browserName = prop.getProperty("browser");
 
 		if (browserName.equalsIgnoreCase("chrome")) {
-			WebDriverManager.chromedriver().setup();
+			//WebDriverManager.chromedriver().setup();
+			System.setProperty("webdriver.chrome.driver",
+						System.getProperty("user.dir") + "\\src\\test\\resources\\Drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 
 		} else if (browserName.equalsIgnoreCase("Firefox")) {
-			WebDriverManager.firefoxdriver().setup();
+		//	WebDriverManager.firefoxdriver().setup();
+			System.setProperty("webdriver.gecko.driver",
+					System.getProperty("user.dir") + "\\src\\test\\resources\\Drivers\\geckodriver.exe");
 			driver = new FirefoxDriver();
 
+		} else if (browserName.equalsIgnoreCase("IE")) {
+			//WebDriverManager.edgedriver().setup();
+			System.setProperty("webdriver.ie.driver",
+					System.getProperty("user.dir") + "\\src\\test\\resources\\Drivers\\IEDriverServer.exe");
+			 driver=new InternetExplorerDriver();  
 		}
-		// driver.manage().window().maximize();
+		 driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(Testutil.page_load_Timeout, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(Testutil.Implicitwait, TimeUnit.SECONDS);
