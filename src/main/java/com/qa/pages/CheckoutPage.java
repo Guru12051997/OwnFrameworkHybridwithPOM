@@ -35,7 +35,7 @@ public class CheckoutPage extends TestBase {
 	@FindBy(xpath = "//input[@id='button-payment-address']")
 	WebElement continuebtn;
 
-	@FindBy(xpath = "//input[@id='button-shipping-address']")
+	@FindBy(id = "button-shipping-address")
 	WebElement continuebtnDelivery;
 
 	@FindBy(id = "button-shipping-method")
