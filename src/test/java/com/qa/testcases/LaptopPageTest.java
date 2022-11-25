@@ -34,11 +34,11 @@ public class LaptopPageTest extends TestBase {
 		homepage = loginpage.Login(prop.getProperty("username"), prop.getProperty("password"));
 		homepage.HomePageClick();
 		desktopPage = new DesktopPage();
-		desktopPage.DesktopPageClick();
-		laptopPAge = new laptopPage();
+		laptopPAge=desktopPage.DesktopPageClick();
+		//laptopPAge = new laptopPage();
 	}
 
-	@Test(priority = 0)
+	@Test(priority = 1)
 	public void LaptopPageTitleTest() {
 
 		String title = laptopPAge.ValidateLaptopPageTitle();
@@ -46,7 +46,7 @@ public class LaptopPageTest extends TestBase {
 		AssertJUnit.assertEquals(title, "HP LP3065");
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 2)
 	public void LaptopPageLClick() throws InterruptedException {
 
 		Thread.sleep(3000);

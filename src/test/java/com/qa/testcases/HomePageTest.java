@@ -34,7 +34,7 @@ public class HomePageTest extends TestBase {
 	public void homePageTitleTest() {
 		String title = homepage.ValidateHomePageTitle();
 		System.out.println("------------" + title + "---------------");
-		AssertJUnit.assertEquals(title, "My Account");
+		Assert.assertEquals(title, "My Account" ,"Home page title not matched");
 	}
 
 	@Test(priority = 1)

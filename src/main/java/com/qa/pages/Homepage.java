@@ -1,6 +1,7 @@
 package com.qa.pages;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -19,8 +20,8 @@ public class Homepage extends TestBase {
 
 	public Homepage() {
 		PageFactory.initElements(driver, this);// use also LoginPage.class
-	
-		}
+
+	}
 	// Actions Methods
 
 	public String ValidateHomePageTitle() {
@@ -29,7 +30,10 @@ public class Homepage extends TestBase {
 	}
 
 	public DesktopPage HomePageClick() {
-		Desktopbtn.click();
+		Actions actions = new Actions(driver);
+		actions.moveToElement(Desktopbtn).build().perform();
+
+		// Desktopbtn.click();
 		AllDesktopbtn.click();
 		return new DesktopPage();
 	}
