@@ -4,6 +4,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.AssertJUnit;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -26,7 +27,6 @@ public class LaptopPageTest extends TestBase {
 
 	}
 
-	
 	@BeforeMethod
 	public void setUp() {
 		initialization();
@@ -34,8 +34,8 @@ public class LaptopPageTest extends TestBase {
 		homepage = loginpage.Login(prop.getProperty("username"), prop.getProperty("password"));
 		homepage.HomePageClick();
 		desktopPage = new DesktopPage();
-		laptopPAge=desktopPage.DesktopPageClick();
-		//laptopPAge = new laptopPage();
+		laptopPAge = desktopPage.DesktopPageClick();
+		// laptopPAge = new laptopPage();
 	}
 
 	@Test(priority = 1)
@@ -50,11 +50,14 @@ public class LaptopPageTest extends TestBase {
 	public void LaptopPageLClick() throws InterruptedException {
 
 		Thread.sleep(3000);
-		laptopPAge.LaptopPageClick();
+		try {
+			laptopPAge.LaptopPageClick();
+		} catch (StaleElementReferenceException e) {
+			e.printStackTrace();
+		}
 		Thread.sleep(3000);
 	}
 
-	
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();

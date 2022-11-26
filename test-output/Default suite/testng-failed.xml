@@ -6,6 +6,7 @@
       <class name="com.qa.testcases.CheckoutPageTest">
         <methods>
           <include name="tearDown"/>
+          <include name="CheckoutPageLAddInformation"/>
           <include name="CheckOutPageTitleTest"/>
           <include name="setUp"/>
         </methods>

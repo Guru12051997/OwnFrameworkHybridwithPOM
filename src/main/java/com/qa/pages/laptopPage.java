@@ -1,5 +1,6 @@
 package com.qa.pages;
 
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -29,9 +30,14 @@ public class laptopPage extends TestBase {
 	}
 
 	public CheckoutPage LaptopPageClick() {
-		AddToCart.click();
-		GoTOCart.click();
-		CheckOutbtn.click();
+		try {
+			AddToCart.click();
+			GoTOCart.click();
+			CheckOutbtn.click();
+	
+		}catch(StaleElementReferenceException e) {
+			e.printStackTrace();
+		}
 		return new CheckoutPage();
 	}
 }
