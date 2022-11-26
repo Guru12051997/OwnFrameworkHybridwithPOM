@@ -10,8 +10,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.qa.util.Testutil;
+import com.qa.util.WebEventListener;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -19,6 +21,8 @@ public class TestBase {
 
 	public static WebDriver driver;
 	public static Properties prop;
+	public static EventFiringWebDriver e_driver;
+	public static WebEventListener eventListener;
 
 	public TestBase() {
 		try {
@@ -55,7 +59,15 @@ public class TestBase {
 					System.getProperty("user.dir") + "\\src\\test\\resources\\Drivers\\IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
 		}
-		driver.manage().window().maximize();
+
+		e_driver = new EventFiringWebDriver(driver);
+		// Now create object of EventListerHandler to register it with
+		// EventFiringWebDriver
+		eventListener = new WebEventListener();
+		e_driver.register(eventListener);
+		driver = e_driver;
+
+		//driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(Testutil.page_load_Timeout, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(Testutil.Implicitwait, TimeUnit.SECONDS);
