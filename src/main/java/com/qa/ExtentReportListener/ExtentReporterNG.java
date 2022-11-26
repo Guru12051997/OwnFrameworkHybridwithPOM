@@ -6,7 +6,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.xmlbeans.impl.xb.xsdschema.ImportDocument.Import;
 import org.testng.IReporter;
 import org.testng.IResultMap;
 import org.testng.ISuite;
@@ -18,7 +17,6 @@ import org.testng.xml.XmlSuite;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
-import com.relevantcodes.extentreports.model.Test;
 
 public class ExtentReporterNG implements IReporter {
 	private ExtentReports extent;
@@ -60,7 +58,7 @@ public class ExtentReporterNG implements IReporter {
 				} else {
 					test.log(status, "Test " + status.toString().toLowerCase() + "ed");
 				}
-
+//x
 				extent.endTest(test);
 			}
 		}
@@ -72,5 +70,4 @@ public class ExtentReporterNG implements IReporter {
 		return calendar.getTime();
 	}
 
-	
 }
