@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="139.571" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Guru Prasad Das\Desktop\Struggle\eclipse storage\OwnHybridFrameworkwithPOM\src\test\resources\Drivers\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Guru Prasad Das\Desktop\Struggle\eclipse storage\OwnHybridFrameworkwithPOM\target\test-classes;C:\Users\Guru Prasad Das\Desktop\Struggle\eclipse storage\OwnHybridFrameworkwithPOM\target\classes;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\cucumber-java\6.9.0\cucumber-java-6.9.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\cucumber-core\6.9.0\cucumber-core-6.9.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\cucumber-gherkin\6.9.0\cucumber-gherkin-6.9.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.9.0\cucumber-gherkin-messages-6.9.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\messages\13.2.0\messages-13.2.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\cucumber-plugin\6.9.0\cucumber-plugin-6.9.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\docstring\6.9.0\docstring-6.9.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\create-meta\2.0.4\create-meta-2.0.4.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\cucumber-junit\6.9.0\cucumber-junit-6.9.0.jar;C:\Users\Guru Prasad Das\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\Guru Prasad Das\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Guru Prasad Das\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Guru Prasad Das\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Guru Prasad Das\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Guru Prasad Das\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Guru Prasad Das\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Guru Prasad Das\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Guru Prasad Das\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Guru Prasad Das\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Guru Prasad Das\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.2\webdrivermanager-4.2.2.jar;C:\Users\Guru Prasad Das\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Guru Prasad Das\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\Guru Prasad Das\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Guru Prasad Das\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Guru Prasad Das\.m2\repository\tech\grasshopper\extentreports-cucumber6-adapter\2.8.0\extentreports-cucumber6-adapter-2.8.0.jar;C:\Users\Guru Prasad Das\.m2\repository\com\aventstack\extentreports\5.0.6\extentreports-5.0.6.jar;C:\Users\Guru Prasad Das\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Guru Prasad Das\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Guru Prasad Das\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Guru Prasad Das\.m2\repository\tech\grasshopper\extent-pdf-report\1.7.0\extent-pdf-report-1.7.0.jar;C:\Users\Guru Prasad Das\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.2.0\cucumber-pdf-report-2.2.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\Users\Guru Prasad Das\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\Guru Prasad Das\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\Guru Prasad Das\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\Guru Prasad Das\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\Guru Prasad Das\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\Guru Prasad Das\.m2\repository\tech\grasshopper\table-layout\1.2.0\table-layout-1.2.0.jar;C:\Users\Guru Prasad Das\.m2\repository\com\aventstack\klov-reporter\5.0.6\klov-reporter-5.0.6.jar;C:\Users\Guru Prasad Das\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Guru Prasad Das\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Guru Prasad Das\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Guru Prasad Das\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\cucumber-testng\6.9.0\cucumber-testng-6.9.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\Guru Prasad Das\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\Guru Prasad Das\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Guru Prasad Das\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Guru Prasad Das\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\Guru Prasad Das\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\Guru Prasad Das\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Guru Prasad Das\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Guru Prasad Das\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Guru Prasad Das\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Guru Prasad Das\AppData\Local\Temp\surefire5069469055388359112\surefirebooter12128656001701391905.jar C:\Users\Guru Prasad Das\AppData\Local\Temp\surefire5069469055388359112 2022-11-26T15-59-39_997-jvmRun1 surefire4052126538587990953tmp surefire_015975143281949512870tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Guru Prasad Das\Desktop\Struggle\eclipse storage\OwnHybridFrameworkwithPOM\target\test-classes;C:\Users\Guru Prasad Das\Desktop\Struggle\eclipse storage\OwnHybridFrameworkwithPOM\target\classes;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\cucumber-java\6.9.0\cucumber-java-6.9.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\cucumber-core\6.9.0\cucumber-core-6.9.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\cucumber-gherkin\6.9.0\cucumber-gherkin-6.9.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.9.0\cucumber-gherkin-messages-6.9.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\messages\13.2.0\messages-13.2.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\cucumber-plugin\6.9.0\cucumber-plugin-6.9.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\docstring\6.9.0\docstring-6.9.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\create-meta\2.0.4\create-meta-2.0.4.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\cucumber-junit\6.9.0\cucumber-junit-6.9.0.jar;C:\Users\Guru Prasad Das\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\Guru Prasad Das\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Guru Prasad Das\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Guru Prasad Das\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Guru Prasad Das\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Guru Prasad Das\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Guru Prasad Das\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Guru Prasad Das\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Guru Prasad Das\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Guru Prasad Das\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Guru Prasad Das\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Guru Prasad Das\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Guru Prasad Das\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.2\webdrivermanager-4.2.2.jar;C:\Users\Guru Prasad Das\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Guru Prasad Das\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\Guru Prasad Das\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Guru Prasad Das\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Guru Prasad Das\.m2\repository\tech\grasshopper\extentreports-cucumber6-adapter\2.8.0\extentreports-cucumber6-adapter-2.8.0.jar;C:\Users\Guru Prasad Das\.m2\repository\com\aventstack\extentreports\5.0.6\extentreports-5.0.6.jar;C:\Users\Guru Prasad Das\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Guru Prasad Das\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Guru Prasad Das\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Guru Prasad Das\.m2\repository\tech\grasshopper\extent-pdf-report\1.7.0\extent-pdf-report-1.7.0.jar;C:\Users\Guru Prasad Das\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.2.0\cucumber-pdf-report-2.2.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\Users\Guru Prasad Das\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\Guru Prasad Das\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\Guru Prasad Das\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\Guru Prasad Das\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\Guru Prasad Das\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\Guru Prasad Das\.m2\repository\tech\grasshopper\table-layout\1.2.0\table-layout-1.2.0.jar;C:\Users\Guru Prasad Das\.m2\repository\com\aventstack\klov-reporter\5.0.6\klov-reporter-5.0.6.jar;C:\Users\Guru Prasad Das\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Guru Prasad Das\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Guru Prasad Das\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Guru Prasad Das\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Guru Prasad Das\.m2\repository\io\cucumber\cucumber-testng\6.9.0\cucumber-testng-6.9.0.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\Guru Prasad Das\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\Guru Prasad Das\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Guru Prasad Das\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Guru Prasad Das\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\Guru Prasad Das\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\Guru Prasad Das\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\Guru Prasad Das\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Guru Prasad Das\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Guru Prasad Das\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Guru Prasad Das\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Guru Prasad Das"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Guru Prasad Das\Desktop\Struggle\eclipse storage\OwnHybridFrameworkwithPOM"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Guru Prasad Das\AppData\Local\Temp\surefire5069469055388359112\surefirebooter12128656001701391905.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
+    <property name="user.name" value="Guru Prasad Das"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Guru Prasad Das\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\GURUPR~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="C:\Users\Guru Prasad Das\Desktop\Struggle\eclipse storage\OwnHybridFrameworkwithPOM"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Guru Prasad Das\AppData\Local\Android\Sdk\tools\bin;C:\Users\Guru Prasad Das\AppData\Local\Android\Sdk\tools;C:\Users\Guru Prasad Das\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\Guru Prasad Das\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-11.0.7\bin;C:\Program Files\Java\jdk-16.0.1\bin;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\dotnet\;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\allure-2.19.0\bin;C:\Users\Guru Prasad Das\AppData\Local\Android\Sdk\tools\bin;C:\Users\Guru Prasad Das\AppData\Local\Android\Sdk\tools;C:\ProgramData\chocolatey\bin;C:\Users\Guru Prasad Das\AppData\Roaming\npm;C:\Users\Guru Prasad Das\AppData\Local\Android\Sdk\platform-tools;D:\Nodejs1\;D:\Nodejs1\node_modules\npm\bin;C:\Users\Guru Prasad Das\AppData\Local\Microsoft\WindowsApps;C:\Users\Guru Prasad Das\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="loginPageTitleTest" classname="com.qa.testcases.LoginPageTest" time="0.007">
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+Before navigating to: 'https://naveenautomationlabs.com/opencart/index.php?route=account/login'
+Navigated to:'https://naveenautomationlabs.com/opencart/index.php?route=account/login'
+------------Account Login---------------
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 28282
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 26, 2022 3:59:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyLOGOTest" classname="com.qa.testcases.LoginPageTest" time="0.114">
+    <system-out><![CDATA[Before navigating to: 'https://naveenautomationlabs.com/opencart/index.php?route=account/login'
+Navigated to:'https://naveenautomationlabs.com/opencart/index.php?route=account/login'
+Trying to find Element By : By.xpath: //img[@title='naveenopencart']
+Found Element By : By.xpath: //img[@title='naveenopencart']
+true
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 19413
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 26, 2022 4:00:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.qa.testcases.LoginPageTest" time="7.528">
+    <system-out><![CDATA[Before navigating to: 'https://naveenautomationlabs.com/opencart/index.php?route=account/login'
+Navigated to:'https://naveenautomationlabs.com/opencart/index.php?route=account/login'
+Trying to find Element By : By.xpath: //input[@id='input-email']
+Found Element By : By.xpath: //input[@id='input-email']
+Trying to find Element By : By.xpath: //input[@id='input-password']
+Found Element By : By.xpath: //input[@id='input-password']
+Trying to find Element By : By.xpath: //input[@value='Login']
+Found Element By : By.xpath: //input[@value='Login']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (5f8a2f58fddcb1c69274960d8d27703e)] -> xpath: //input[@value='Login']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (5f8a2f58fddcb1c69274960d8d27703e)] -> xpath: //input[@value='Login']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 13517
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 26, 2022 4:00:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="homePageTitleTest" classname="com.qa.testcases.HomePageTest" time="0.002">
+    <system-out><![CDATA[Before navigating to: 'https://naveenautomationlabs.com/opencart/index.php?route=account/login'
+Navigated to:'https://naveenautomationlabs.com/opencart/index.php?route=account/login'
+Trying to find Element By : By.xpath: //input[@id='input-email']
+Found Element By : By.xpath: //input[@id='input-email']
+Trying to find Element By : By.xpath: //input[@id='input-password']
+Found Element By : By.xpath: //input[@id='input-password']
+Trying to find Element By : By.xpath: //input[@value='Login']
+Found Element By : By.xpath: //input[@value='Login']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (f31bfde9e96430b53abd4806da010152)] -> xpath: //input[@value='Login']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (f31bfde9e96430b53abd4806da010152)] -> xpath: //input[@value='Login']]
+------------My Account---------------
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 26386
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 26, 2022 3:59:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="HomePageClick" classname="com.qa.testcases.HomePageTest" time="4.823">
+    <system-out><![CDATA[Before navigating to: 'https://naveenautomationlabs.com/opencart/index.php?route=account/login'
+Navigated to:'https://naveenautomationlabs.com/opencart/index.php?route=account/login'
+Trying to find Element By : By.xpath: //input[@id='input-email']
+Found Element By : By.xpath: //input[@id='input-email']
+Trying to find Element By : By.xpath: //input[@id='input-password']
+Found Element By : By.xpath: //input[@id='input-password']
+Trying to find Element By : By.xpath: //input[@value='Login']
+Found Element By : By.xpath: //input[@value='Login']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (dd44ed96b2a293dec34302b89873f5ec)] -> xpath: //input[@value='Login']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (dd44ed96b2a293dec34302b89873f5ec)] -> xpath: //input[@value='Login']]
+Trying to find Element By : By.xpath: //a[normalize-space()='Desktops']
+Found Element By : By.xpath: //a[normalize-space()='Desktops']
+Trying to find Element By : By.xpath: //a[normalize-space()='Show All Desktops']
+Found Element By : By.xpath: //a[normalize-space()='Show All Desktops']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (dd44ed96b2a293dec34302b89873f5ec)] -> xpath: //a[normalize-space()='Show All Desktops']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (dd44ed96b2a293dec34302b89873f5ec)] -> xpath: //a[normalize-space()='Show All Desktops']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 2306
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 26, 2022 4:00:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="homePageTitleTest" classname="com.qa.testcases.DesktopPageTest" time="0.003">
+    <system-out><![CDATA[Before navigating to: 'https://naveenautomationlabs.com/opencart/index.php?route=account/login'
+Navigated to:'https://naveenautomationlabs.com/opencart/index.php?route=account/login'
+Trying to find Element By : By.xpath: //input[@id='input-email']
+Found Element By : By.xpath: //input[@id='input-email']
+Trying to find Element By : By.xpath: //input[@id='input-password']
+Found Element By : By.xpath: //input[@id='input-password']
+Trying to find Element By : By.xpath: //input[@value='Login']
+Found Element By : By.xpath: //input[@value='Login']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (6d5f920d50f7ad637cec96ef320704bd)] -> xpath: //input[@value='Login']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (6d5f920d50f7ad637cec96ef320704bd)] -> xpath: //input[@value='Login']]
+Trying to find Element By : By.xpath: //a[normalize-space()='Desktops']
+Found Element By : By.xpath: //a[normalize-space()='Desktops']
+Trying to find Element By : By.xpath: //a[normalize-space()='Show All Desktops']
+Found Element By : By.xpath: //a[normalize-space()='Show All Desktops']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (6d5f920d50f7ad637cec96ef320704bd)] -> xpath: //a[normalize-space()='Show All Desktops']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (6d5f920d50f7ad637cec96ef320704bd)] -> xpath: //a[normalize-space()='Show All Desktops']]
+------------Desktops---------------
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 1619
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 26, 2022 3:59:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="DeskTopPageLaptopClick" classname="com.qa.testcases.DesktopPageTest" time="8.374">
+    <system-out><![CDATA[Before navigating to: 'https://naveenautomationlabs.com/opencart/index.php?route=account/login'
+Navigated to:'https://naveenautomationlabs.com/opencart/index.php?route=account/login'
+Trying to find Element By : By.xpath: //input[@id='input-email']
+Found Element By : By.xpath: //input[@id='input-email']
+Trying to find Element By : By.xpath: //input[@id='input-password']
+Found Element By : By.xpath: //input[@id='input-password']
+Trying to find Element By : By.xpath: //input[@value='Login']
+Found Element By : By.xpath: //input[@value='Login']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (29ce9e72ea6b5c8da196b94c2d36ed05)] -> xpath: //input[@value='Login']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (29ce9e72ea6b5c8da196b94c2d36ed05)] -> xpath: //input[@value='Login']]
+Trying to find Element By : By.xpath: //a[normalize-space()='Desktops']
+Found Element By : By.xpath: //a[normalize-space()='Desktops']
+Trying to find Element By : By.xpath: //a[normalize-space()='Show All Desktops']
+Found Element By : By.xpath: //a[normalize-space()='Show All Desktops']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (29ce9e72ea6b5c8da196b94c2d36ed05)] -> xpath: //a[normalize-space()='Show All Desktops']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (29ce9e72ea6b5c8da196b94c2d36ed05)] -> xpath: //a[normalize-space()='Show All Desktops']]
+Trying to find Element By : By.xpath: //*[@id="content"]/div[4]/div[3]/div/div[2]/div[1]/h4/a
+Found Element By : By.xpath: //*[@id="content"]/div[4]/div[3]/div/div[2]/div[1]/h4/a
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (29ce9e72ea6b5c8da196b94c2d36ed05)] -> xpath: //*[@id="content"]/div[4]/div[3]/div/div[2]/div[1]/h4/a]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (29ce9e72ea6b5c8da196b94c2d36ed05)] -> xpath: //*[@id="content"]/div[4]/div[3]/div/div[2]/div[1]/h4/a]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 28022
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 26, 2022 4:00:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="LaptopPageTitleTest" classname="com.qa.testcases.LaptopPageTest" time="0.003">
+    <system-out><![CDATA[Before navigating to: 'https://naveenautomationlabs.com/opencart/index.php?route=account/login'
+Navigated to:'https://naveenautomationlabs.com/opencart/index.php?route=account/login'
+Trying to find Element By : By.xpath: //input[@id='input-email']
+Found Element By : By.xpath: //input[@id='input-email']
+Trying to find Element By : By.xpath: //input[@id='input-password']
+Found Element By : By.xpath: //input[@id='input-password']
+Trying to find Element By : By.xpath: //input[@value='Login']
+Found Element By : By.xpath: //input[@value='Login']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3cb1ab2364326d4cc3b4cf61c7a4f4e0)] -> xpath: //input[@value='Login']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3cb1ab2364326d4cc3b4cf61c7a4f4e0)] -> xpath: //input[@value='Login']]
+Trying to find Element By : By.xpath: //a[normalize-space()='Desktops']
+Found Element By : By.xpath: //a[normalize-space()='Desktops']
+Trying to find Element By : By.xpath: //a[normalize-space()='Show All Desktops']
+Found Element By : By.xpath: //a[normalize-space()='Show All Desktops']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3cb1ab2364326d4cc3b4cf61c7a4f4e0)] -> xpath: //a[normalize-space()='Show All Desktops']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3cb1ab2364326d4cc3b4cf61c7a4f4e0)] -> xpath: //a[normalize-space()='Show All Desktops']]
+Trying to find Element By : By.xpath: //*[@id="content"]/div[4]/div[3]/div/div[2]/div[1]/h4/a
+Found Element By : By.xpath: //*[@id="content"]/div[4]/div[3]/div/div[2]/div[1]/h4/a
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3cb1ab2364326d4cc3b4cf61c7a4f4e0)] -> xpath: //*[@id="content"]/div[4]/div[3]/div/div[2]/div[1]/h4/a]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3cb1ab2364326d4cc3b4cf61c7a4f4e0)] -> xpath: //*[@id="content"]/div[4]/div[3]/div/div[2]/div[1]/h4/a]
+------------HP LP3065---------------
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 8247
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 26, 2022 4:00:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="LaptopPageLClick" classname="com.qa.testcases.LaptopPageTest" time="7.002">
+    <system-out><![CDATA[Before navigating to: 'https://naveenautomationlabs.com/opencart/index.php?route=account/login'
+Navigated to:'https://naveenautomationlabs.com/opencart/index.php?route=account/login'
+Trying to find Element By : By.xpath: //input[@id='input-email']
+Found Element By : By.xpath: //input[@id='input-email']
+Trying to find Element By : By.xpath: //input[@id='input-password']
+Found Element By : By.xpath: //input[@id='input-password']
+Trying to find Element By : By.xpath: //input[@value='Login']
+Found Element By : By.xpath: //input[@value='Login']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (7f229f9ee5723fb2dd6d6fa15f81d282)] -> xpath: //input[@value='Login']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (7f229f9ee5723fb2dd6d6fa15f81d282)] -> xpath: //input[@value='Login']]
+Trying to find Element By : By.xpath: //a[normalize-space()='Desktops']
+Found Element By : By.xpath: //a[normalize-space()='Desktops']
+Trying to find Element By : By.xpath: //a[normalize-space()='Show All Desktops']
+Found Element By : By.xpath: //a[normalize-space()='Show All Desktops']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (7f229f9ee5723fb2dd6d6fa15f81d282)] -> xpath: //a[normalize-space()='Show All Desktops']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (7f229f9ee5723fb2dd6d6fa15f81d282)] -> xpath: //a[normalize-space()='Show All Desktops']]
+Trying to find Element By : By.xpath: //*[@id="content"]/div[4]/div[3]/div/div[2]/div[1]/h4/a
+Found Element By : By.xpath: //*[@id="content"]/div[4]/div[3]/div/div[2]/div[1]/h4/a
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (7f229f9ee5723fb2dd6d6fa15f81d282)] -> xpath: //*[@id="content"]/div[4]/div[3]/div/div[2]/div[1]/h4/a]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (7f229f9ee5723fb2dd6d6fa15f81d282)] -> xpath: //*[@id="content"]/div[4]/div[3]/div/div[2]/div[1]/h4/a]
+Trying to find Element By : By.xpath: //button[@id='button-cart']
+Found Element By : By.xpath: //button[@id='button-cart']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (7f229f9ee5723fb2dd6d6fa15f81d282)] -> xpath: //button[@id='button-cart']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (7f229f9ee5723fb2dd6d6fa15f81d282)] -> xpath: //button[@id='button-cart']]
+Trying to find Element By : By.xpath: //span[@id='cart-total']
+Found Element By : By.xpath: //span[@id='cart-total']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (7f229f9ee5723fb2dd6d6fa15f81d282)] -> xpath: //span[@id='cart-total']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (7f229f9ee5723fb2dd6d6fa15f81d282)] -> xpath: //span[@id='cart-total']]
+Trying to find Element By : By.xpath: //strong[normalize-space()='Checkout']
+Found Element By : By.xpath: //strong[normalize-space()='Checkout']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (7f229f9ee5723fb2dd6d6fa15f81d282)] -> xpath: //strong[normalize-space()='Checkout']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (7f229f9ee5723fb2dd6d6fa15f81d282)] -> xpath: //strong[normalize-space()='Checkout']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 26605
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 26, 2022 4:01:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="CheckOutPageTitleTest" classname="com.qa.testcases.CheckoutPageTest" time="0.001">
+    <system-out><![CDATA[Before navigating to: 'https://naveenautomationlabs.com/opencart/index.php?route=account/login'
+Navigated to:'https://naveenautomationlabs.com/opencart/index.php?route=account/login'
+Trying to find Element By : By.xpath: //input[@id='input-email']
+Found Element By : By.xpath: //input[@id='input-email']
+Trying to find Element By : By.xpath: //input[@id='input-password']
+Found Element By : By.xpath: //input[@id='input-password']
+Trying to find Element By : By.xpath: //input[@value='Login']
+Found Element By : By.xpath: //input[@value='Login']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d32fd4d7bb3a21e487515bbcbaaaf6be)] -> xpath: //input[@value='Login']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d32fd4d7bb3a21e487515bbcbaaaf6be)] -> xpath: //input[@value='Login']]
+Trying to find Element By : By.xpath: //a[normalize-space()='Desktops']
+Found Element By : By.xpath: //a[normalize-space()='Desktops']
+Trying to find Element By : By.xpath: //a[normalize-space()='Show All Desktops']
+Found Element By : By.xpath: //a[normalize-space()='Show All Desktops']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d32fd4d7bb3a21e487515bbcbaaaf6be)] -> xpath: //a[normalize-space()='Show All Desktops']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d32fd4d7bb3a21e487515bbcbaaaf6be)] -> xpath: //a[normalize-space()='Show All Desktops']]
+Trying to find Element By : By.xpath: //*[@id="content"]/div[4]/div[3]/div/div[2]/div[1]/h4/a
+Found Element By : By.xpath: //*[@id="content"]/div[4]/div[3]/div/div[2]/div[1]/h4/a
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d32fd4d7bb3a21e487515bbcbaaaf6be)] -> xpath: //*[@id="content"]/div[4]/div[3]/div/div[2]/div[1]/h4/a]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d32fd4d7bb3a21e487515bbcbaaaf6be)] -> xpath: //*[@id="content"]/div[4]/div[3]/div/div[2]/div[1]/h4/a]
+Trying to find Element By : By.xpath: //button[@id='button-cart']
+Found Element By : By.xpath: //button[@id='button-cart']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d32fd4d7bb3a21e487515bbcbaaaf6be)] -> xpath: //button[@id='button-cart']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d32fd4d7bb3a21e487515bbcbaaaf6be)] -> xpath: //button[@id='button-cart']]
+Trying to find Element By : By.xpath: //span[@id='cart-total']
+Found Element By : By.xpath: //span[@id='cart-total']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d32fd4d7bb3a21e487515bbcbaaaf6be)] -> xpath: //span[@id='cart-total']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d32fd4d7bb3a21e487515bbcbaaaf6be)] -> xpath: //span[@id='cart-total']]
+Trying to find Element By : By.xpath: //strong[normalize-space()='Checkout']
+Found Element By : By.xpath: //strong[normalize-space()='Checkout']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d32fd4d7bb3a21e487515bbcbaaaf6be)] -> xpath: //strong[normalize-space()='Checkout']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d32fd4d7bb3a21e487515bbcbaaaf6be)] -> xpath: //strong[normalize-space()='Checkout']]
+------------Checkout---------------
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 10231
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 26, 2022 4:00:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="CheckoutPageLAddInformation" classname="com.qa.testcases.CheckoutPageTest" time="32.527">
+    <system-out><![CDATA[Before navigating to: 'https://naveenautomationlabs.com/opencart/index.php?route=account/login'
+Navigated to:'https://naveenautomationlabs.com/opencart/index.php?route=account/login'
+Trying to find Element By : By.xpath: //input[@id='input-email']
+Found Element By : By.xpath: //input[@id='input-email']
+Trying to find Element By : By.xpath: //input[@id='input-password']
+Found Element By : By.xpath: //input[@id='input-password']
+Trying to find Element By : By.xpath: //input[@value='Login']
+Found Element By : By.xpath: //input[@value='Login']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> xpath: //input[@value='Login']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> xpath: //input[@value='Login']]
+Trying to find Element By : By.xpath: //a[normalize-space()='Desktops']
+Found Element By : By.xpath: //a[normalize-space()='Desktops']
+Trying to find Element By : By.xpath: //a[normalize-space()='Show All Desktops']
+Found Element By : By.xpath: //a[normalize-space()='Show All Desktops']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> xpath: //a[normalize-space()='Show All Desktops']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> xpath: //a[normalize-space()='Show All Desktops']]
+Trying to find Element By : By.xpath: //*[@id="content"]/div[4]/div[3]/div/div[2]/div[1]/h4/a
+Found Element By : By.xpath: //*[@id="content"]/div[4]/div[3]/div/div[2]/div[1]/h4/a
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> xpath: //*[@id="content"]/div[4]/div[3]/div/div[2]/div[1]/h4/a]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> xpath: //*[@id="content"]/div[4]/div[3]/div/div[2]/div[1]/h4/a]
+Trying to find Element By : By.xpath: //button[@id='button-cart']
+Found Element By : By.xpath: //button[@id='button-cart']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> xpath: //button[@id='button-cart']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> xpath: //button[@id='button-cart']]
+Trying to find Element By : By.xpath: //span[@id='cart-total']
+Found Element By : By.xpath: //span[@id='cart-total']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> xpath: //span[@id='cart-total']]
+Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7DJ18U3D', ip: '192.168.1.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\GURUPR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65194}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eb682085760f28b431983d419cb3a59e
+Trying to find Element By : By.xpath: //label[normalize-space()='I want to use a new address']
+Found Element By : By.xpath: //label[normalize-space()='I want to use a new address']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> xpath: //label[normalize-space()='I want to use a new address']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> xpath: //label[normalize-space()='I want to use a new address']]
+Trying to find Element By : By.xpath: //input[@id='input-payment-firstname']
+Found Element By : By.xpath: //input[@id='input-payment-firstname']
+Trying to find Element By : By.xpath: //input[@id='input-payment-lastname']
+Found Element By : By.xpath: //input[@id='input-payment-lastname']
+Trying to find Element By : By.xpath: //input[@id='input-payment-company']
+Found Element By : By.xpath: //input[@id='input-payment-company']
+Trying to find Element By : By.xpath: //input[@id='input-payment-address-1']
+Found Element By : By.xpath: //input[@id='input-payment-address-1']
+Trying to find Element By : By.xpath: //input[@id='input-payment-city']
+Found Element By : By.xpath: //input[@id='input-payment-city']
+Trying to find Element By : By.xpath: //input[@id='input-payment-postcode']
+Found Element By : By.xpath: //input[@id='input-payment-postcode']
+Trying to find Element By : By.xpath: //select[@id='input-payment-country']
+Found Element By : By.xpath: //select[@id='input-payment-country']
+Trying to find Element By : By.xpath: .//option[normalize-space(.) = "Sweden"]
+Found Element By : By.xpath: .//option[normalize-space(.) = "Sweden"]
+Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> xpath: //select[@id='input-payment-country']]] -> xpath: .//option[normalize-space(.) = "Sweden"]]
+Clicked on: [[[[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> xpath: //select[@id='input-payment-country']]] -> xpath: .//option[normalize-space(.) = "Sweden"]]
+Trying to find Element By : By.xpath: //select[@id='input-payment-zone']
+Found Element By : By.xpath: //select[@id='input-payment-zone']
+Trying to find Element By : By.xpath: .//option[normalize-space(.) = "Gotland"]
+Found Element By : By.xpath: .//option[normalize-space(.) = "Gotland"]
+Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> xpath: //select[@id='input-payment-zone']]] -> xpath: .//option[normalize-space(.) = "Gotland"]]
+Clicked on: [[[[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> xpath: //select[@id='input-payment-zone']]] -> xpath: .//option[normalize-space(.) = "Gotland"]]
+Trying to find Element By : By.xpath: //input[@id='button-payment-address']
+Found Element By : By.xpath: //input[@id='button-payment-address']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> xpath: //input[@id='button-payment-address']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> xpath: //input[@id='button-payment-address']]
+Trying to find Element By : By.id: button-shipping-address
+Found Element By : By.id: button-shipping-address
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> id: button-shipping-address]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> id: button-shipping-address]
+Trying to find Element By : By.id: button-shipping-method
+Found Element By : By.id: button-shipping-method
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> id: button-shipping-method]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> id: button-shipping-method]
+Trying to find Element By : By.xpath: //input[@name='agree']
+Found Element By : By.xpath: //input[@name='agree']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> xpath: //input[@name='agree']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> xpath: //input[@name='agree']]
+Trying to find Element By : By.xpath: //input[@id='button-payment-method']
+Found Element By : By.xpath: //input[@id='button-payment-method']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> xpath: //input[@id='button-payment-method']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> xpath: //input[@id='button-payment-method']]
+Trying to find Element By : By.xpath: 	//input[@id='button-confirm']
+Found Element By : By.xpath: 	//input[@id='button-confirm']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> xpath: 	//input[@id='button-confirm']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (eb682085760f28b431983d419cb3a59e)] -> xpath: 	//input[@id='button-confirm']]
+------------Your order has been placed!---------------
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 4064
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 26, 2022 4:01:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-7DJ18U3D', ip: '192.168.1.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\GURUPR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65194}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eb682085760f28b431983d419cb3a59e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
+	at com.qa.pages.laptopPage.LaptopPageClick(laptopPage.java:35)
+	at com.qa.testcases.CheckoutPageTest.setUp(CheckoutPageTest.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+</testsuite>

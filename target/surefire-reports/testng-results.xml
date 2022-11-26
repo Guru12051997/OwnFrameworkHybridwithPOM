@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-26T10:29:43Z" name="OpenCart Automation All Testcases" finished-at="2022-11-26T10:31:59Z" duration-ms="136323">
+    <groups>
+    </groups>
+    <test started-at="2022-11-26T10:29:43Z" name="Test" finished-at="2022-11-26T10:31:59Z" duration-ms="136323">
+      <class name="com.qa.testcases.LaptopPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.LaptopPageTest@6c284af]" started-at="2022-11-26T10:30:30Z" name="setUp" finished-at="2022-11-26T10:30:39Z" duration-ms="9292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LaptopPageTitleTest()[pri:1, instance:com.qa.testcases.LaptopPageTest@6c284af]" started-at="2022-11-26T10:30:39Z" name="LaptopPageTitleTest" finished-at="2022-11-26T10:30:39Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaptopPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.LaptopPageTest@6c284af]" started-at="2022-11-26T10:30:39Z" name="tearDown" finished-at="2022-11-26T10:30:40Z" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.LaptopPageTest@6c284af]" started-at="2022-11-26T10:31:02Z" name="setUp" finished-at="2022-11-26T10:31:10Z" duration-ms="8510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LaptopPageLClick()[pri:2, instance:com.qa.testcases.LaptopPageTest@6c284af]" started-at="2022-11-26T10:31:10Z" name="LaptopPageLClick" finished-at="2022-11-26T10:31:17Z" duration-ms="6977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaptopPageLClick -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.LaptopPageTest@6c284af]" started-at="2022-11-26T10:31:17Z" name="tearDown" finished-at="2022-11-26T10:31:18Z" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.LaptopPageTest -->
+      <class name="com.qa.testcases.DesktopPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.DesktopPageTest@7e057f43]" started-at="2022-11-26T10:29:58Z" name="setUp" finished-at="2022-11-26T10:30:05Z" duration-ms="6303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homePageTitleTest()[pri:0, instance:com.qa.testcases.DesktopPageTest@7e057f43]" started-at="2022-11-26T10:30:05Z" name="homePageTitleTest" finished-at="2022-11-26T10:30:05Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.DesktopPageTest@7e057f43]" started-at="2022-11-26T10:30:05Z" name="tearDown" finished-at="2022-11-26T10:30:05Z" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.DesktopPageTest@7e057f43]" started-at="2022-11-26T10:30:17Z" name="setUp" finished-at="2022-11-26T10:30:21Z" duration-ms="4118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DeskTopPageLaptopClick()[pri:1, instance:com.qa.testcases.DesktopPageTest@7e057f43]" started-at="2022-11-26T10:30:21Z" name="DeskTopPageLaptopClick" finished-at="2022-11-26T10:30:30Z" duration-ms="8411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeskTopPageLaptopClick -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.DesktopPageTest@7e057f43]" started-at="2022-11-26T10:30:30Z" name="tearDown" finished-at="2022-11-26T10:30:30Z" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.DesktopPageTest -->
+      <class name="com.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.HomePageTest@6e9a5ed8]" started-at="2022-11-26T10:29:54Z" name="setUp" finished-at="2022-11-26T10:29:58Z" duration-ms="4559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homePageTitleTest()[pri:0, instance:com.qa.testcases.HomePageTest@6e9a5ed8]" started-at="2022-11-26T10:29:58Z" name="homePageTitleTest" finished-at="2022-11-26T10:29:58Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.HomePageTest@6e9a5ed8]" started-at="2022-11-26T10:29:58Z" name="tearDown" finished-at="2022-11-26T10:29:58Z" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.HomePageTest@6e9a5ed8]" started-at="2022-11-26T10:30:08Z" name="setUp" finished-at="2022-11-26T10:30:12Z" duration-ms="4098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="HomePageClick()[pri:1, instance:com.qa.testcases.HomePageTest@6e9a5ed8]" started-at="2022-11-26T10:30:12Z" name="HomePageClick" finished-at="2022-11-26T10:30:17Z" duration-ms="4845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageClick -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.HomePageTest@6e9a5ed8]" started-at="2022-11-26T10:30:17Z" name="tearDown" finished-at="2022-11-26T10:30:17Z" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.HomePageTest -->
+      <class name="com.qa.testcases.CheckoutPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.CheckoutPageTest@5890e879]" started-at="2022-11-26T10:30:40Z" name="setUp" finished-at="2022-11-26T10:30:51Z" duration-ms="11782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CheckOutPageTitleTest()[pri:1, instance:com.qa.testcases.CheckoutPageTest@5890e879]" started-at="2022-11-26T10:30:51Z" name="CheckOutPageTitleTest" finished-at="2022-11-26T10:30:51Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOutPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.CheckoutPageTest@5890e879]" started-at="2022-11-26T10:30:52Z" name="tearDown" finished-at="2022-11-26T10:30:52Z" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.CheckoutPageTest@5890e879]" started-at="2022-11-26T10:31:18Z" name="setUp" finished-at="2022-11-26T10:31:26Z" duration-ms="8247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CheckoutPageLAddInformation()[pri:2, instance:com.qa.testcases.CheckoutPageTest@5890e879]" started-at="2022-11-26T10:31:26Z" name="CheckoutPageLAddInformation" finished-at="2022-11-26T10:31:59Z" duration-ms="32442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckoutPageLAddInformation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.CheckoutPageTest@5890e879]" started-at="2022-11-26T10:31:59Z" name="tearDown" finished-at="2022-11-26T10:31:59Z" duration-ms="596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.CheckoutPageTest -->
+      <class name="com.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.LoginPageTest@268f106e]" started-at="2022-11-26T10:29:43Z" name="setUp" finished-at="2022-11-26T10:29:53Z" duration-ms="10404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:0, instance:com.qa.testcases.LoginPageTest@268f106e]" started-at="2022-11-26T10:29:53Z" name="loginPageTitleTest" finished-at="2022-11-26T10:29:53Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@268f106e]" started-at="2022-11-26T10:29:53Z" name="tearDown" finished-at="2022-11-26T10:29:54Z" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.LoginPageTest@268f106e]" started-at="2022-11-26T10:30:05Z" name="setUp" finished-at="2022-11-26T10:30:08Z" duration-ms="2672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLOGOTest()[pri:1, instance:com.qa.testcases.LoginPageTest@268f106e]" started-at="2022-11-26T10:30:08Z" name="verifyLOGOTest" finished-at="2022-11-26T10:30:08Z" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLOGOTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@268f106e]" started-at="2022-11-26T10:30:08Z" name="tearDown" finished-at="2022-11-26T10:30:08Z" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.LoginPageTest@268f106e]" started-at="2022-11-26T10:30:52Z" name="setUp" finished-at="2022-11-26T10:30:54Z" duration-ms="2300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:2, instance:com.qa.testcases.LoginPageTest@268f106e]" started-at="2022-11-26T10:30:54Z" name="loginTest" finished-at="2022-11-26T10:31:02Z" duration-ms="7532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@268f106e]" started-at="2022-11-26T10:31:02Z" name="tearDown" finished-at="2022-11-26T10:31:02Z" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- OpenCart Automation All Testcases -->
+</testng-results>
